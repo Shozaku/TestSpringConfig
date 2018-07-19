@@ -2,7 +2,8 @@ spring:
   profiles: dev
   cloud:
     config:
-      allowOverride: true
+      allow-override: true
+      override-none: true
 name: test-Dev-Yaml
 environment: Dev
 servers:
