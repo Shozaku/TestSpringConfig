@@ -1,0 +1,16 @@
+spring:
+  profiles: dev
+name: test-Dev-Yaml
+environment: Dev
+servers:
+  - www.yahoo.com
+  - www.google.com
+
+---
+spring:
+  profiles: prod
+name: test-Prod-Yaml
+environment: Prod
+servers:
+  - www.fedex.com
+  - www.ubiquisoft.com
